@@ -1,0 +1,30 @@
+<!-- <div class="row d-flex justify-content-center">
+  <div class="col-md-12">
+    <label>User Name:</label>
+    <input type="text" [(ngModel)]="userId" placeholder="User Name">
+  </div>
+  <div class="col-md-12">
+    <label>Password:</label>
+    <input type="password" [(ngModel)]="password" placeholder="Pass word">
+  </div>
+  <div class="col-md-4">
+    <button class="btn-success float-right" (click)="login()">Login</button>
+  </div>
+</div> -->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <div class="fadeIn first">
+      <strong>Login</strong>
+    </div>
+
+    <!-- Login Form -->
+    <div>
+      <input type="text" class="fadeIn second" [(ngModel)]="userId" placeholder="User Name">
+      <input type="password" class="fadeIn second" [(ngModel)]="password" placeholder="Password">
+      <button class="fadeIn fourthbtn-success" (click)="login()">Login</button>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="p-4 mb-2 shadow-sm rounded bg-info">
+  <strong class="ml-2 text-dark">{{userName}}'s Book Store</strong>
+  <span><a class="text-dark float-right mr-2" href="/login">| LogOut</a></span>
+  <strong><a class="text-dark float-right mr-2 bg-warning" href="/mybooks">{{userName}}'s Books</a></strong>
+</div>
+<div class="row p-3">
+  <div class="col-md-3 shadow-lg p-3 mb-5 bg-white rounded m-3 books" *ngFor="let book of bookData">
+    <div>Name: <strong>{{book.name}}</strong></div>
+    <div>Author: <strong>{{book.author}}</strong></div>
+    <button (click)="buyNow(book.id)" class="btn-primary shadow-sm rounded float-right mb-2">Buy Now</button>
+  </div>
+</div>

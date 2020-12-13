@@ -1,0 +1,23 @@
+[
+  {
+    "userId": "1001",
+    "password": "1234",
+    "role": "Student",
+    "Name": "Vishnu",
+    "branch": "CSE"
+  },
+  {
+    "userId": "1002",
+    "password": "1234",
+    "role": "Admin",
+    "Name": "Vijay",
+    "branch": "CSE"
+  },
+  {
+    "userId": "1003",
+    "password": "1234",
+    "role": "Student",
+    "Name": "Vishnu",
+    "branch": "CSE"
+  }
+]
